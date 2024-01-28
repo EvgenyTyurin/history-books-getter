@@ -43,7 +43,7 @@ public class Main {
                 strArray = imageName.split("u002");
                 imageName = strArray[strArray.length - 1];
             }
-            books.get(i).setCoverImageName(imageName.split("F")[1]);
+            books.get(i).setCoverImageName(imageName.split("F")[1] + ".webp");
         }
 
         // Готовим json-писатель
